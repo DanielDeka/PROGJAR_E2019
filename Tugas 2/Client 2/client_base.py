@@ -20,7 +20,7 @@ def getImage():
         elif(data=="DONE"):
             break
         else:
-            print "blok ", len(data), data[0:10]
+            # print "blok ", len(data), data[0:10]
             fp.write(data)
 
 while counter==1:
